@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'appsecco/dvna:sqlite'
+          default: 'neurodebian:bullseye-non-free'
 
 # env:
 #   REGISTRY: ghcr.io
